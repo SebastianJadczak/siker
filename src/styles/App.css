@@ -1,22 +1,48 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div.center {
+  background-color: rgb(235, 235, 235);
+  height: 63vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+div.center nav {
+  background-color: #fff;
+  width: 20%;
+  height: 91%;
+  margin-top: 30px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+div.center main {
+  /* background-color: #fff; */
+  width: 80%;
+  height: 88%;
+  margin-top: 30px;
+  margin-left: 22px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+div.center main div.FirstContent,
+div.center main div.ThirdContent {
+  margin: 5px;
+  width: 60%;
+  height: 50%;
+  background-color: white;
+  margin-right: 10px;
+}
+
+div.center main div.SecondContent,
+div.center main div.FourthContent {
+  margin: 5px;
+  width: 35%;
+  height: 50%;
+  background-color: white;
+}
+
+div.center main div.FirstContent,
+div.center main div.SecondContent {
+  margin-bottom: 10px;
 }

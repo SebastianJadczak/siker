@@ -21,7 +21,7 @@ function App() {
           <main><Content /></main>
 
         </div>
-        <div className="content">
+        <div className="main">
           <Main />
         </div>
 
