@@ -3,6 +3,7 @@ div.header {
     padding: 20px;
     display: flex;
     line-height: 4vh;
+    background-color: white;
 }
 
 div.logo {

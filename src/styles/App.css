@@ -1,3 +1,9 @@
+div.App {
+  background-color: rgb(235, 235, 235);
+  padding-bottom: 20px;
+}
+
+
 div.center {
   background-color: rgb(235, 235, 235);
   height: 63vh;
@@ -45,4 +51,13 @@ div.center main div.FourthContent {
 div.center main div.FirstContent,
 div.center main div.SecondContent {
   margin-bottom: 10px;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  height: 40px;
+  width: 98%;
+  margin: 0 auto;
+  line-height: 40px;
 }
